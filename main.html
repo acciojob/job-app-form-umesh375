@@ -9,38 +9,45 @@
 <body method="Post">
 	<label for="name">Name*</label>
 	<input type="text" id="name" name="name" required>
+	
+	<label for="email">Email*</label>
+	<input type="text" id="email" name="email" required>
+
+<label>
+  <input type="radio" name="gender" value="male" required>
+  Male
+</label>
 	<br>
-	    <label for="email">Email*</label>
-	    <input type="email" id="email" name="email" required>
-	<br>
-	    <label for="gender">Gender*</label>
-	    <label for="male">Male</label>
-	    <input type="radio" name="gender" value="male">	
-	<br>
-	    <label for="female">Female</label>
-	    <input type="radio" name="gender" value="female">
-	<br>
-	    <label for="other">Other</label>
-	    <input type="radio" name="gender" value="Other">
-	<br>
-	    <label for="laptop">Laptop Brands*</label>
+<label>
+  <input type="radio" name="gender" value="female" required>
+  Female
+</label>
+	<br>  
+<label>
+  <input type="radio" name="gender" value="other" required>
+  Other
+</label>
+   	<br>
+	
+    <label for="laptop">Laptop Brands*</label>
 	<select>
-	    <option>Apple</option>
-	    <option>Asus</option>
-		<option>HP</option>
+	<option>Apple</option>
+	<option>Asus</option>
+	<option>HP</option>
 	</select>
-		<label for="age">Age*</label>
-		<input type="number" id="age" name="age" required>
-	<br>
-		<label for="dob">Date of Birth*</label>
-		<input type="date" id="dob" name="dob" required>
-	<br>
-		<label for="password">Password*</label>
-		<input type="password" id="password" name="password" required>
-	<br>
-		<label for="portfolio">Portfolio URL*</label>
-		<input type="url" id="portfolio" name="portfolio">
-	<br>
+	
+	<label for="age">Age*</label>
+	<input type="number" id="age" name="age" required>
+
+	<label for="dob">Date of Birth*</label>
+	<input type="date" id="dob" name="date of birth" required>
+
+	<label for="password">Pasword*</label>
+	<input type="password" id="password" name="password" required>
+
+	<label for="portfolio">Portfolio URL*</label>
+	<input type="url" id="portfolio" name="portfolio">
+	
 	<button type="submit">submit*</button>
 	<!-- the entire body must be written by student -->
     <script type="text/javascript" src="./script.js">
