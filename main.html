@@ -13,24 +13,14 @@
 	<label for="email">Email*</label>
 	<input type="text" id="email" name="email" required>
 
-<label>
-  <input type="radio" name="gender" value="male" required>
-  Male
-</label>
-	<br>
-<label>
-  <input type="radio" name="gender" value="female" required>
-  Female
-</label>
-	<br>  
-<label>
-  <input type="radio" name="gender" value="other" required>
-  Other
-</label>
-   	<br>
+	<label for="male">Male*</label>
+    <input type="radio" id='male' name='gender' required> 
+
+	<label for="female" >Female*</label>
+   <input type="radio" id='female' name='gender'required>
 	
-    <label for="laptop">Laptop Brands*</label>
-	<select>
+    <label for="laptop">Laptop Brands</label>
+	<select id="laptop">
 	<option>Apple</option>
 	<option>Asus</option>
 	<option>HP</option>
@@ -40,15 +30,15 @@
 	<input type="number" id="age" name="age" required>
 
 	<label for="dob">Date of Birth*</label>
-	<input type="date" id="dob" name="date of birth" required>
+	<input type="date" id="dob" name="dob" required>
 
 	<label for="password">Pasword*</label>
 	<input type="password" id="password" name="password" required>
 
-	<label for="portfolio">Portfolio URL*</label>
+	<label for="portfolio">Portfolio URL</label>
 	<input type="url" id="portfolio" name="portfolio">
 	
-	<button type="submit">submit*</button>
+	<button type="submit">Submit</button>
 	<!-- the entire body must be written by student -->
     <script type="text/javascript" src="./script.js">
 </script>
